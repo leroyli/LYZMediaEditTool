@@ -3,12 +3,12 @@
 
 ![screenShot1](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot1.PNG)
 
-![screenShot1](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot2.PNG)
+![screenShot2](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot2.PNG)
 
-![screenShot1](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot3.PNG)
+![screenShot3](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot3.PNG)
 
-![screenShot1](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot4.PNG)
+![screenShot4](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot4.PNG)
 
-![screenShot1](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot5.PNG)
+![screenShot5](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot5.PNG)
 
-![screenShot1](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot6.PNG)
+![screenShot6](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot6.PNG)
