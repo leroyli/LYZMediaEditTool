@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE01AFE51F78F56C00F6CDF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01AFE41F78F56C00F6CDF0 /* AppDelegate.m */; };
+		AE01AFE81F78F56C00F6CDF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01AFE71F78F56C00F6CDF0 /* ViewController.m */; };
+		AE01AFEB1F78F56C00F6CDF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE01AFE91F78F56C00F6CDF0 /* Main.storyboard */; };
+		AE01AFED1F78F56C00F6CDF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE01AFEC1F78F56C00F6CDF0 /* Assets.xcassets */; };
+		AE01AFF01F78F56C00F6CDF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE01AFEE1F78F56C00F6CDF0 /* LaunchScreen.storyboard */; };
+		AE01AFF31F78F56C00F6CDF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01AFF21F78F56C00F6CDF0 /* main.m */; };
+		AE01AFFD1F78F56D00F6CDF0 /* LYZMediaEditToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01AFFC1F78F56D00F6CDF0 /* LYZMediaEditToolDemoTests.m */; };
+		AE01B0081F78F56D00F6CDF0 /* LYZMediaEditToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01B0071F78F56D00F6CDF0 /* LYZMediaEditToolDemoUITests.m */; };
+		AE01B0181F78F6A300F6CDF0 /* LYZMediaEditTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01B0171F78F6A300F6CDF0 /* LYZMediaEditTool.m */; };
+		AE01B0201F78F70F00F6CDF0 /* 五环之歌.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE01B01C1F78F70E00F6CDF0 /* 五环之歌.mp3 */; };
+		AE01B0211F78F70F00F6CDF0 /* 123.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE01B01D1F78F70E00F6CDF0 /* 123.mp3 */; };
+		AE01B0221F78F70F00F6CDF0 /* 陈奕迅.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE01B01E1F78F70E00F6CDF0 /* 陈奕迅.mp3 */; };
+		AE01B0231F78F70F00F6CDF0 /* abc.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AE01B01F1F78F70E00F6CDF0 /* abc.mp4 */; };
+		AE01B0331F78F74900F6CDF0 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01B0281F78F74800F6CDF0 /* FBShimmeringLayer.m */; };
+		AE01B0341F78F74900F6CDF0 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01B02A1F78F74800F6CDF0 /* FBShimmeringView.m */; };
+		AE01B0351F78F74900F6CDF0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE01B02B1F78F74800F6CDF0 /* Info.plist */; };
+		AE01B0361F78F74900F6CDF0 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01B02D1F78F74800F6CDF0 /* MMMaterialDesignSpinner.m */; };
+		AE01B0371F78F74900F6CDF0 /* WSIndefiniteAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01B02F1F78F74800F6CDF0 /* WSIndefiniteAnimationView.m */; };
+		AE01B0381F78F74900F6CDF0 /* WSProgressBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE01B0301F78F74800F6CDF0 /* WSProgressBundle.bundle */; };
+		AE01B0391F78F74900F6CDF0 /* WSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01B0321F78F74800F6CDF0 /* WSProgressHUD.m */; };
+		AE01B04A1F78F78200F6CDF0 /* LYZCutAudioFinishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01B03B1F78F78100F6CDF0 /* LYZCutAudioFinishViewController.m */; };
+		AE01B04B1F78F78200F6CDF0 /* LYZEditAudioFinishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01B03D1F78F78100F6CDF0 /* LYZEditAudioFinishViewController.m */; };
+		AE01B04C1F78F78200F6CDF0 /* LYZCutAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01B03E1F78F78100F6CDF0 /* LYZCutAudioViewController.m */; };
+		AE01B04D1F78F78200F6CDF0 /* LYZEditAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01B03F1F78F78100F6CDF0 /* LYZEditAudioViewController.m */; };
+		AE01B04E1F78F78200F6CDF0 /* LYZEditVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01B0411F78F78100F6CDF0 /* LYZEditVideoViewController.m */; };
+		AE01B04F1F78F78200F6CDF0 /* LYZCutVideoFinishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01B0461F78F78100F6CDF0 /* LYZCutVideoFinishViewController.m */; };
+		AE01B0501F78F78200F6CDF0 /* LYZEditVideoFinishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01B0481F78F78200F6CDF0 /* LYZEditVideoFinishViewController.m */; };
+		AE01B0511F78F78200F6CDF0 /* LYZCutVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01B0491F78F78200F6CDF0 /* LYZCutVideoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE01AFF91F78F56D00F6CDF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE01AFD81F78F56C00F6CDF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE01AFDF1F78F56C00F6CDF0;
+			remoteInfo = LYZMediaEditToolDemo;
+		};
+		AE01B0041F78F56D00F6CDF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE01AFD81F78F56C00F6CDF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE01AFDF1F78F56C00F6CDF0;
+			remoteInfo = LYZMediaEditToolDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE01AFE01F78F56C00F6CDF0 /* LYZMediaEditToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYZMediaEditToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE01AFE31F78F56C00F6CDF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE01AFE41F78F56C00F6CDF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE01AFE61F78F56C00F6CDF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE01AFE71F78F56C00F6CDF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE01AFEA1F78F56C00F6CDF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE01AFEC1F78F56C00F6CDF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE01AFEF1F78F56C00F6CDF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE01AFF11F78F56C00F6CDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE01AFF21F78F56C00F6CDF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE01AFF81F78F56D00F6CDF0 /* LYZMediaEditToolDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYZMediaEditToolDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE01AFFC1F78F56D00F6CDF0 /* LYZMediaEditToolDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYZMediaEditToolDemoTests.m; sourceTree = "<group>"; };
+		AE01AFFE1F78F56D00F6CDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE01B0031F78F56D00F6CDF0 /* LYZMediaEditToolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYZMediaEditToolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE01B0071F78F56D00F6CDF0 /* LYZMediaEditToolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYZMediaEditToolDemoUITests.m; sourceTree = "<group>"; };
+		AE01B0091F78F56D00F6CDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE01B0161F78F6A300F6CDF0 /* LYZMediaEditTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYZMediaEditTool.h; sourceTree = "<group>"; };
+		AE01B0171F78F6A300F6CDF0 /* LYZMediaEditTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYZMediaEditTool.m; sourceTree = "<group>"; };
+		AE01B01C1F78F70E00F6CDF0 /* 五环之歌.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "五环之歌.mp3"; sourceTree = "<group>"; };
+		AE01B01D1F78F70E00F6CDF0 /* 123.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 123.mp3; sourceTree = "<group>"; };
+		AE01B01E1F78F70E00F6CDF0 /* 陈奕迅.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅.mp3"; sourceTree = "<group>"; };
+		AE01B01F1F78F70E00F6CDF0 /* abc.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = abc.mp4; sourceTree = "<group>"; };
+		AE01B0251F78F74800F6CDF0 /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
+		AE01B0261F78F74800F6CDF0 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		AE01B0271F78F74800F6CDF0 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		AE01B0281F78F74800F6CDF0 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		AE01B0291F78F74800F6CDF0 /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		AE01B02A1F78F74800F6CDF0 /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
+		AE01B02B1F78F74800F6CDF0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE01B02C1F78F74800F6CDF0 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		AE01B02D1F78F74800F6CDF0 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		AE01B02E1F78F74800F6CDF0 /* WSIndefiniteAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSIndefiniteAnimationView.h; sourceTree = "<group>"; };
+		AE01B02F1F78F74800F6CDF0 /* WSIndefiniteAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSIndefiniteAnimationView.m; sourceTree = "<group>"; };
+		AE01B0301F78F74800F6CDF0 /* WSProgressBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WSProgressBundle.bundle; sourceTree = "<group>"; };
+		AE01B0311F78F74800F6CDF0 /* WSProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSProgressHUD.h; sourceTree = "<group>"; };
+		AE01B0321F78F74800F6CDF0 /* WSProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSProgressHUD.m; sourceTree = "<group>"; };
+		AE01B03A1F78F78000F6CDF0 /* LYZEditVideoFinishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYZEditVideoFinishViewController.h; sourceTree = "<group>"; };
+		AE01B03B1F78F78100F6CDF0 /* LYZCutAudioFinishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYZCutAudioFinishViewController.m; sourceTree = "<group>"; };
+		AE01B03C1F78F78100F6CDF0 /* LYZCutVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYZCutVideoViewController.h; sourceTree = "<group>"; };
+		AE01B03D1F78F78100F6CDF0 /* LYZEditAudioFinishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYZEditAudioFinishViewController.m; sourceTree = "<group>"; };
+		AE01B03E1F78F78100F6CDF0 /* LYZCutAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYZCutAudioViewController.m; sourceTree = "<group>"; };
+		AE01B03F1F78F78100F6CDF0 /* LYZEditAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYZEditAudioViewController.m; sourceTree = "<group>"; };
+		AE01B0401F78F78100F6CDF0 /* LYZCutAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYZCutAudioViewController.h; sourceTree = "<group>"; };
+		AE01B0411F78F78100F6CDF0 /* LYZEditVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYZEditVideoViewController.m; sourceTree = "<group>"; };
+		AE01B0421F78F78100F6CDF0 /* LYZEditAudioFinishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYZEditAudioFinishViewController.h; sourceTree = "<group>"; };
+		AE01B0431F78F78100F6CDF0 /* LYZEditVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYZEditVideoViewController.h; sourceTree = "<group>"; };
+		AE01B0441F78F78100F6CDF0 /* LYZCutVideoFinishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYZCutVideoFinishViewController.h; sourceTree = "<group>"; };
+		AE01B0451F78F78100F6CDF0 /* LYZEditAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYZEditAudioViewController.h; sourceTree = "<group>"; };
+		AE01B0461F78F78100F6CDF0 /* LYZCutVideoFinishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYZCutVideoFinishViewController.m; sourceTree = "<group>"; };
+		AE01B0471F78F78200F6CDF0 /* LYZCutAudioFinishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYZCutAudioFinishViewController.h; sourceTree = "<group>"; };
+		AE01B0481F78F78200F6CDF0 /* LYZEditVideoFinishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYZEditVideoFinishViewController.m; sourceTree = "<group>"; };
+		AE01B0491F78F78200F6CDF0 /* LYZCutVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYZCutVideoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE01AFDD1F78F56C00F6CDF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE01AFF51F78F56D00F6CDF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE01B0001F78F56D00F6CDF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE01AFD71F78F56C00F6CDF0 = {
+			isa = PBXGroup;
+			children = (
+				AE01B0151F78F6A300F6CDF0 /* LYZMediaEditTool */,
+				AE01AFE21F78F56C00F6CDF0 /* LYZMediaEditToolDemo */,
+				AE01AFFB1F78F56D00F6CDF0 /* LYZMediaEditToolDemoTests */,
+				AE01B0061F78F56D00F6CDF0 /* LYZMediaEditToolDemoUITests */,
+				AE01AFE11F78F56C00F6CDF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE01AFE11F78F56C00F6CDF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE01AFE01F78F56C00F6CDF0 /* LYZMediaEditToolDemo.app */,
+				AE01AFF81F78F56D00F6CDF0 /* LYZMediaEditToolDemoTests.xctest */,
+				AE01B0031F78F56D00F6CDF0 /* LYZMediaEditToolDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE01AFE21F78F56C00F6CDF0 /* LYZMediaEditToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AE01B0191F78F6DC00F6CDF0 /* Controller */,
+				AE01B01B1F78F6DC00F6CDF0 /* Resource */,
+				AE01B01A1F78F6DC00F6CDF0 /* Vendor */,
+				AE01AFE31F78F56C00F6CDF0 /* AppDelegate.h */,
+				AE01AFE41F78F56C00F6CDF0 /* AppDelegate.m */,
+				AE01AFE61F78F56C00F6CDF0 /* ViewController.h */,
+				AE01AFE71F78F56C00F6CDF0 /* ViewController.m */,
+				AE01AFE91F78F56C00F6CDF0 /* Main.storyboard */,
+				AE01AFEC1F78F56C00F6CDF0 /* Assets.xcassets */,
+				AE01AFEE1F78F56C00F6CDF0 /* LaunchScreen.storyboard */,
+				AE01AFF11F78F56C00F6CDF0 /* Info.plist */,
+				AE01AFF21F78F56C00F6CDF0 /* main.m */,
+			);
+			path = LYZMediaEditToolDemo;
+			sourceTree = "<group>";
+		};
+		AE01AFFB1F78F56D00F6CDF0 /* LYZMediaEditToolDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE01AFFC1F78F56D00F6CDF0 /* LYZMediaEditToolDemoTests.m */,
+				AE01AFFE1F78F56D00F6CDF0 /* Info.plist */,
+			);
+			path = LYZMediaEditToolDemoTests;
+			sourceTree = "<group>";
+		};
+		AE01B0061F78F56D00F6CDF0 /* LYZMediaEditToolDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE01B0071F78F56D00F6CDF0 /* LYZMediaEditToolDemoUITests.m */,
+				AE01B0091F78F56D00F6CDF0 /* Info.plist */,
+			);
+			path = LYZMediaEditToolDemoUITests;
+			sourceTree = "<group>";
+		};
+		AE01B0151F78F6A300F6CDF0 /* LYZMediaEditTool */ = {
+			isa = PBXGroup;
+			children = (
+				AE01B0161F78F6A300F6CDF0 /* LYZMediaEditTool.h */,
+				AE01B0171F78F6A300F6CDF0 /* LYZMediaEditTool.m */,
+			);
+			path = LYZMediaEditTool;
+			sourceTree = "<group>";
+		};
+		AE01B0191F78F6DC00F6CDF0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE01B0471F78F78200F6CDF0 /* LYZCutAudioFinishViewController.h */,
+				AE01B03B1F78F78100F6CDF0 /* LYZCutAudioFinishViewController.m */,
+				AE01B0401F78F78100F6CDF0 /* LYZCutAudioViewController.h */,
+				AE01B03E1F78F78100F6CDF0 /* LYZCutAudioViewController.m */,
+				AE01B0441F78F78100F6CDF0 /* LYZCutVideoFinishViewController.h */,
+				AE01B0461F78F78100F6CDF0 /* LYZCutVideoFinishViewController.m */,
+				AE01B03C1F78F78100F6CDF0 /* LYZCutVideoViewController.h */,
+				AE01B0491F78F78200F6CDF0 /* LYZCutVideoViewController.m */,
+				AE01B0421F78F78100F6CDF0 /* LYZEditAudioFinishViewController.h */,
+				AE01B03D1F78F78100F6CDF0 /* LYZEditAudioFinishViewController.m */,
+				AE01B0451F78F78100F6CDF0 /* LYZEditAudioViewController.h */,
+				AE01B03F1F78F78100F6CDF0 /* LYZEditAudioViewController.m */,
+				AE01B03A1F78F78000F6CDF0 /* LYZEditVideoFinishViewController.h */,
+				AE01B0481F78F78200F6CDF0 /* LYZEditVideoFinishViewController.m */,
+				AE01B0431F78F78100F6CDF0 /* LYZEditVideoViewController.h */,
+				AE01B0411F78F78100F6CDF0 /* LYZEditVideoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE01B01A1F78F6DC00F6CDF0 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				AE01B0241F78F74800F6CDF0 /* WSProgressHUD */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		AE01B01B1F78F6DC00F6CDF0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AE01B01D1F78F70E00F6CDF0 /* 123.mp3 */,
+				AE01B01E1F78F70E00F6CDF0 /* 陈奕迅.mp3 */,
+				AE01B01C1F78F70E00F6CDF0 /* 五环之歌.mp3 */,
+				AE01B01F1F78F70E00F6CDF0 /* abc.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		AE01B0241F78F74800F6CDF0 /* WSProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				AE01B0251F78F74800F6CDF0 /* FBShimmering-Prefix.pch */,
+				AE01B0261F78F74800F6CDF0 /* FBShimmering.h */,
+				AE01B0271F78F74800F6CDF0 /* FBShimmeringLayer.h */,
+				AE01B0281F78F74800F6CDF0 /* FBShimmeringLayer.m */,
+				AE01B0291F78F74800F6CDF0 /* FBShimmeringView.h */,
+				AE01B02A1F78F74800F6CDF0 /* FBShimmeringView.m */,
+				AE01B02B1F78F74800F6CDF0 /* Info.plist */,
+				AE01B02C1F78F74800F6CDF0 /* MMMaterialDesignSpinner.h */,
+				AE01B02D1F78F74800F6CDF0 /* MMMaterialDesignSpinner.m */,
+				AE01B02E1F78F74800F6CDF0 /* WSIndefiniteAnimationView.h */,
+				AE01B02F1F78F74800F6CDF0 /* WSIndefiniteAnimationView.m */,
+				AE01B0301F78F74800F6CDF0 /* WSProgressBundle.bundle */,
+				AE01B0311F78F74800F6CDF0 /* WSProgressHUD.h */,
+				AE01B0321F78F74800F6CDF0 /* WSProgressHUD.m */,
+			);
+			path = WSProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE01AFDF1F78F56C00F6CDF0 /* LYZMediaEditToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE01B00C1F78F56D00F6CDF0 /* Build configuration list for PBXNativeTarget "LYZMediaEditToolDemo" */;
+			buildPhases = (
+				AE01AFDC1F78F56C00F6CDF0 /* Sources */,
+				AE01AFDD1F78F56C00F6CDF0 /* Frameworks */,
+				AE01AFDE1F78F56C00F6CDF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYZMediaEditToolDemo;
+			productName = LYZMediaEditToolDemo;
+			productReference = AE01AFE01F78F56C00F6CDF0 /* LYZMediaEditToolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE01AFF71F78F56D00F6CDF0 /* LYZMediaEditToolDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE01B00F1F78F56D00F6CDF0 /* Build configuration list for PBXNativeTarget "LYZMediaEditToolDemoTests" */;
+			buildPhases = (
+				AE01AFF41F78F56D00F6CDF0 /* Sources */,
+				AE01AFF51F78F56D00F6CDF0 /* Frameworks */,
+				AE01AFF61F78F56D00F6CDF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE01AFFA1F78F56D00F6CDF0 /* PBXTargetDependency */,
+			);
+			name = LYZMediaEditToolDemoTests;
+			productName = LYZMediaEditToolDemoTests;
+			productReference = AE01AFF81F78F56D00F6CDF0 /* LYZMediaEditToolDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE01B0021F78F56D00F6CDF0 /* LYZMediaEditToolDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE01B0121F78F56D00F6CDF0 /* Build configuration list for PBXNativeTarget "LYZMediaEditToolDemoUITests" */;
+			buildPhases = (
+				AE01AFFF1F78F56D00F6CDF0 /* Sources */,
+				AE01B0001F78F56D00F6CDF0 /* Frameworks */,
+				AE01B0011F78F56D00F6CDF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE01B0051F78F56D00F6CDF0 /* PBXTargetDependency */,
+			);
+			name = LYZMediaEditToolDemoUITests;
+			productName = LYZMediaEditToolDemoUITests;
+			productReference = AE01B0031F78F56D00F6CDF0 /* LYZMediaEditToolDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE01AFD81F78F56C00F6CDF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = artios;
+				TargetAttributes = {
+					AE01AFDF1F78F56C00F6CDF0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					AE01AFF71F78F56D00F6CDF0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE01AFDF1F78F56C00F6CDF0;
+					};
+					AE01B0021F78F56D00F6CDF0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE01AFDF1F78F56C00F6CDF0;
+					};
+				};
+			};
+			buildConfigurationList = AE01AFDB1F78F56C00F6CDF0 /* Build configuration list for PBXProject "LYZMediaEditToolDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE01AFD71F78F56C00F6CDF0;
+			productRefGroup = AE01AFE11F78F56C00F6CDF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE01AFDF1F78F56C00F6CDF0 /* LYZMediaEditToolDemo */,
+				AE01AFF71F78F56D00F6CDF0 /* LYZMediaEditToolDemoTests */,
+				AE01B0021F78F56D00F6CDF0 /* LYZMediaEditToolDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE01AFDE1F78F56C00F6CDF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE01B0381F78F74900F6CDF0 /* WSProgressBundle.bundle in Resources */,
+				AE01B0351F78F74900F6CDF0 /* Info.plist in Resources */,
+				AE01B0201F78F70F00F6CDF0 /* 五环之歌.mp3 in Resources */,
+				AE01AFF01F78F56C00F6CDF0 /* LaunchScreen.storyboard in Resources */,
+				AE01AFED1F78F56C00F6CDF0 /* Assets.xcassets in Resources */,
+				AE01B0221F78F70F00F6CDF0 /* 陈奕迅.mp3 in Resources */,
+				AE01AFEB1F78F56C00F6CDF0 /* Main.storyboard in Resources */,
+				AE01B0211F78F70F00F6CDF0 /* 123.mp3 in Resources */,
+				AE01B0231F78F70F00F6CDF0 /* abc.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE01AFF61F78F56D00F6CDF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE01B0011F78F56D00F6CDF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE01AFDC1F78F56C00F6CDF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE01B0181F78F6A300F6CDF0 /* LYZMediaEditTool.m in Sources */,
+				AE01B0341F78F74900F6CDF0 /* FBShimmeringView.m in Sources */,
+				AE01B04F1F78F78200F6CDF0 /* LYZCutVideoFinishViewController.m in Sources */,
+				AE01B0371F78F74900F6CDF0 /* WSIndefiniteAnimationView.m in Sources */,
+				AE01B04B1F78F78200F6CDF0 /* LYZEditAudioFinishViewController.m in Sources */,
+				AE01AFE81F78F56C00F6CDF0 /* ViewController.m in Sources */,
+				AE01B0361F78F74900F6CDF0 /* MMMaterialDesignSpinner.m in Sources */,
+				AE01B04C1F78F78200F6CDF0 /* LYZCutAudioViewController.m in Sources */,
+				AE01B0511F78F78200F6CDF0 /* LYZCutVideoViewController.m in Sources */,
+				AE01B04A1F78F78200F6CDF0 /* LYZCutAudioFinishViewController.m in Sources */,
+				AE01B04E1F78F78200F6CDF0 /* LYZEditVideoViewController.m in Sources */,
+				AE01B0331F78F74900F6CDF0 /* FBShimmeringLayer.m in Sources */,
+				AE01AFF31F78F56C00F6CDF0 /* main.m in Sources */,
+				AE01B04D1F78F78200F6CDF0 /* LYZEditAudioViewController.m in Sources */,
+				AE01B0501F78F78200F6CDF0 /* LYZEditVideoFinishViewController.m in Sources */,
+				AE01B0391F78F74900F6CDF0 /* WSProgressHUD.m in Sources */,
+				AE01AFE51F78F56C00F6CDF0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE01AFF41F78F56D00F6CDF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE01AFFD1F78F56D00F6CDF0 /* LYZMediaEditToolDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE01AFFF1F78F56D00F6CDF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE01B0081F78F56D00F6CDF0 /* LYZMediaEditToolDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE01AFFA1F78F56D00F6CDF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE01AFDF1F78F56C00F6CDF0 /* LYZMediaEditToolDemo */;
+			targetProxy = AE01AFF91F78F56D00F6CDF0 /* PBXContainerItemProxy */;
+		};
+		AE01B0051F78F56D00F6CDF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE01AFDF1F78F56C00F6CDF0 /* LYZMediaEditToolDemo */;
+			targetProxy = AE01B0041F78F56D00F6CDF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE01AFE91F78F56C00F6CDF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE01AFEA1F78F56C00F6CDF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE01AFEE1F78F56C00F6CDF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE01AFEF1F78F56C00F6CDF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE01B00A1F78F56D00F6CDF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE01B00B1F78F56D00F6CDF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE01B00D1F78F56D00F6CDF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = LYZMediaEditToolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LYZMediaEditToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE01B00E1F78F56D00F6CDF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = LYZMediaEditToolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LYZMediaEditToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE01B0101F78F56D00F6CDF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = LYZMediaEditToolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LYZMediaEditToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYZMediaEditToolDemo.app/LYZMediaEditToolDemo";
+			};
+			name = Debug;
+		};
+		AE01B0111F78F56D00F6CDF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = LYZMediaEditToolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LYZMediaEditToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYZMediaEditToolDemo.app/LYZMediaEditToolDemo";
+			};
+			name = Release;
+		};
+		AE01B0131F78F56D00F6CDF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = LYZMediaEditToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LYZMediaEditToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYZMediaEditToolDemo;
+			};
+			name = Debug;
+		};
+		AE01B0141F78F56D00F6CDF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = LYZMediaEditToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LYZMediaEditToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYZMediaEditToolDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE01AFDB1F78F56C00F6CDF0 /* Build configuration list for PBXProject "LYZMediaEditToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE01B00A1F78F56D00F6CDF0 /* Debug */,
+				AE01B00B1F78F56D00F6CDF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE01B00C1F78F56D00F6CDF0 /* Build configuration list for PBXNativeTarget "LYZMediaEditToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE01B00D1F78F56D00F6CDF0 /* Debug */,
+				AE01B00E1F78F56D00F6CDF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE01B00F1F78F56D00F6CDF0 /* Build configuration list for PBXNativeTarget "LYZMediaEditToolDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE01B0101F78F56D00F6CDF0 /* Debug */,
+				AE01B0111F78F56D00F6CDF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE01B0121F78F56D00F6CDF0 /* Build configuration list for PBXNativeTarget "LYZMediaEditToolDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE01B0131F78F56D00F6CDF0 /* Debug */,
+				AE01B0141F78F56D00F6CDF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE01AFD81F78F56C00F6CDF0 /* Project object */;
+}
