@@ -5,7 +5,7 @@
 
 ![screenShot2](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot2.PNG)
 
-![screenShot3](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot3.PNG)
+![screenShot3](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot3.png)
 
 ![screenShot4](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot4.PNG)
 
