@@ -12,3 +12,4 @@
 ![screenShot5](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot5.PNG)
 
 ![screenShot6](https://github.com/leroyli/LYZMediaEditTool/blob/master/LYZMediaEditToolDemo/LYZMediaEditToolDemo/ScreenShot/screenShot6.PNG)
+
